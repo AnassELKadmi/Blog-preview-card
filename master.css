@@ -1,58 +1,66 @@
 html{
-    font-family: sans-serif;
-}
+    font-family: 'Figtree', sans-serif;}
 body{
     display:flex ;
     justify-content: center;
+    min-height: 100vh;
+    align-items: center;
     background-color: #f5d04e;
 }
-.box{
+main{
     background-color: white;
     width: 350px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px  black;
     border: 1px black solid;
-    margin-top: 100px;
 }
-.box > img{
+main > img{
     border-radius: 10px;
 }
-.box h4{
+main a{
     background-color: #f5d04e;
     width: fit-content;
     padding: 6px 15px;
     border-radius: 6px;
     font-size: 17px;
+    font-weight: 800;
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 15px 0;
 }
-.box  span{
+main  span{
     font-size: 13px;
     font-weight: bold;
 }
-.box h3{
+main h3{
     font-weight: 900;
 }
-.box .active:hover{
+main .active:hover{
     color: #f5d04e;
     cursor: pointer;
 }
-.box p{
+main p{
     color: #777;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.5;
 }
-.box .info{
+ .info{
     display: flex;
     align-items: center;
 }
-.box .info h3{
+ .info .Greg{
     font-size: 16px;
+    color: black;
+    font-weight: 900;
 }
-.box .info img{
+ .info img{
     width: 40px;
     height: 40px;
     margin-right: 15px;
 }
+
 
 
 
